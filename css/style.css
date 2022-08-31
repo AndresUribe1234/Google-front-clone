@@ -27,6 +27,50 @@ main {
     align-items: center;
 }
 
+.company_logo img {
+    width: 40vw;
+}
+
+.search_bar {
+    display: flex;
+    width: 70vw;
+    height: 5vh;
+    border: 0.1rem solid lightgray;
+    border-radius: 1000rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_bar img {
+    height: 2.5vh;
+}
+.search_bar span {
+    width: 65vw;
+}
+
+.search_buttoms {
+    display: flex;
+    width: 70vw;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh;
+}
+
+.search_buttoms span {
+    display: flex;
+    background-color: lightgray;
+    height: inherit;
+    margin: 0.5vh;
+    width: 10vw;
+    border: 0.1rem solid lightgray;
+    border-radius: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+    
+
 /* footer de la pagina */
 footer{
     display: flex;
