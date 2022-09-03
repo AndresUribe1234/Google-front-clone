@@ -9,6 +9,11 @@ html {
     font-size: 62.5%;
 }
 
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 /* header de la pagina */
 header{
     display: flex;
@@ -18,14 +23,32 @@ header{
     align-items: center;
 }
 
-nav ul{
+header nav .nav_right_section{
+    width: 25rem;
     display: flex;
+    height: auto;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
 }
 
-ul li {
-    list-style-type: none;
-    margin-left: 1rem;
+.nav_right_section a {
     margin-right: 1rem;
+    color: black;
+}
+
+nav .nav_right_section .menu_icon {
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+nav .nav_right_section img {
+    border-radius: 50%;
+    margin-left: 1rem;
 }
 
 
