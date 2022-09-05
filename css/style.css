@@ -14,6 +14,9 @@ a {
     cursor: pointer;
 }
 
+body {
+    font-size: 1.3rem;
+}
 /* header de la pagina */
 header{
     display: flex;
@@ -45,6 +48,7 @@ nav .nav_right_section .menu_icon {
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 nav .nav_right_section .menu_icon:hover {
@@ -102,10 +106,61 @@ main .search_bar_container:hover {
     border-color: #dfe1e500;
 }
 
+
+main .search_icon {
+    background-image:url("https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-512.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.8rem;
+    height: 1.8rem;
+    opacity: 0.4;
+}
+
+main .voice_icon {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.8rem;
+    height: 1.8rem;
+    cursor: pointer;
+}
+
+
 .search_buttoms {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 15rem;
+    height: 3.4rem;
+}
+
+.search_buttoms div {
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    padding: 0 1.6rem;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    height: 3.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_buttoms button {
+    background-color: #f8f9fa;
+    border: none;
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+
+.search_buttoms div:hover {
+    border: 0.1rem solid #dadce0;
+    color: #222;
+    box-shadow: 0 0.1rem 0.1rem rgb(0 0 0 / 87%);
+  
 }
 
 /* footer de la pagina */
@@ -120,9 +175,11 @@ footer{
 
 .containers_footer {
     display: flex;
+    list-style-type: none;
 }
 
-.containers_footer p {
+.containers_footer a {
     margin-left: 1rem;
     margin-right: 1rem;
+    color: black;
 }
