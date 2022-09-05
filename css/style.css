@@ -53,7 +53,55 @@ nav .nav_right_section img {
 
 
 /* cuerpo principal de la pagina */
-  
+
+main {
+    margin-top: 15rem;
+    text-align: center;
+}
+
+.company_logo {
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+}
+
+.company_logo img {
+    width: 30rem;
+}
+
+.search_bar {
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+}
+
+.search_bar_container {
+    width: 52.5rem;
+    border-radius: 10rem;
+    margin: 0 auto;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .search_bar_container input {
+    width: 45rem;
+    height: 4rem;
+    border: none;
+    outline: none;
+}
+
+main .search_bar_container:hover {
+    box-shadow: 0 0.1rem 0.6rem 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+.search_buttoms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* footer de la pagina */
 footer{
@@ -62,7 +110,7 @@ footer{
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    background-color: #dadce0;
+    background-color: #f2f2f2;
 }
 
 .containers_footer {
