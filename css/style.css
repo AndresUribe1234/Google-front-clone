@@ -44,6 +44,11 @@ nav .nav_right_section .menu_icon {
     background-size: contain;
     width: 2.5rem;
     height: 2.5rem;
+    border-radius: 50%;
+}
+
+nav .nav_right_section .menu_icon:hover {
+    background-color: #f0f0f0;
 }
 
 nav .nav_right_section img {
